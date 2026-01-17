@@ -1,0 +1,5 @@
+#include<stdio.h> 
+void main() { 
+    int a=100,b=10;
+    (a==b)?printf("a is equal to b"):printf("a is not equal to b");
+}
