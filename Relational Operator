@@ -1,0 +1,10 @@
+#include<stdio.h> 
+void main() { 
+  int a=10,b=100; 
+  printf("a<b=%d\n",a<b); 
+  printf("a>b=%d\n",a>b); 
+  printf("a<=b=%d\n",a<=b); 
+  printf("a>=b=%d\n",a>=b); 
+  printf("a==b=%d\n",a==b); 
+  printf("a!=b=%d\n",a!=b); 
+}
