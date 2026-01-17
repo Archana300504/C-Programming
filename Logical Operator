@@ -1,0 +1,16 @@
+#include <stdio.h> 
+void main(){ 
+  int a=90,b=50; 
+
+/* printf("(a<b)&&(a>b)=%d\n",(a<b)&&(a>b));
+  printf("(a<b)||(a>b)=%d\n",(a<b)||(a>b)); 
+  printf("!a=%d\n",!a); 
+  printf("(a>=b)&&(a>b)=%d\n",(a>=b)&&(a>b)); 
+  printf("(a>b)||(a<b)=%d\n",(a>b)||(a<b));
+  printf("!b=%d\n",!b);
+*/
+
+  printf("10&&-10=%d\n",10&&-10); 
+  printf("1 && 0 =%d\n",1 && 0);
+  printf("10 ||-10=%d\n",(10)||(-10));
+}
