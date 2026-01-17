@@ -1,0 +1,15 @@
+#include<stdio.h> 
+void main() { 
+  char a=0x56,b=0x32,c; 
+  c=a&b;
+  printf("c=%x\n",c); 
+  c=a|b; printf("c=%x\n",c); 
+  c=a^b; 
+  printf("c=%x\n",c); 
+  c=a;~b; 
+  printf("c=%x\n",c);
+  c=a<<4; 
+  printf("c=%x\n",c); 
+  c=a>>5; 
+  printf("c=%x\n",c); 
+}
